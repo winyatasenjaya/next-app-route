@@ -14,6 +14,9 @@ export default function Navbar() {
                 <Link href="/about/profile">
                     <li className="mr-3 text-blue-300 cursor-pointer">Profile</li>
                 </Link>
+                <Link href="/product">
+                    <li className="mr-3 text-blue-300 cursor-pointer">Product</li>
+                </Link>
             </ul>
         </nav>
     )
